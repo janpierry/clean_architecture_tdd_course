@@ -32,4 +32,9 @@ void main() {
     verify(mockNumberTriviaRepository.getConcreteNumberTrivia(tNumber));
     verifyNoMoreInteractions(mockNumberTriviaRepository);
   });
+
+  test(
+    'this test should fail',
+    () => expect(1, 2),
+  );
 }
