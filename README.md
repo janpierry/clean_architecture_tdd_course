@@ -1,6 +1,6 @@
 # clean_architecture_tdd_course
 
-A new Flutter project. T
+A new Flutter project.
 
 ## Getting Started
 
