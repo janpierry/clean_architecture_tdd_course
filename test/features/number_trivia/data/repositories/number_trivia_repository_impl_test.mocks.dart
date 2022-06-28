@@ -4,7 +4,7 @@
 
 import 'dart:async' as _i4;
 
-import 'package:clean_architecture_tdd_course/core/platform/network_info.dart'
+import 'package:clean_architecture_tdd_course/core/network/network_info.dart'
     as _i6;
 import 'package:clean_architecture_tdd_course/features/number_trivia/data/datasources/number_trivia_local_data_source.dart'
     as _i5;
@@ -43,8 +43,8 @@ class MockNumberTriviaRemoteDataSource extends _i1.Mock
                   _FakeNumberTriviaModel_0()))
           as _i4.Future<_i2.NumberTriviaModel>);
   @override
-  _i4.Future<_i2.NumberTriviaModel> getConcreteRandomTrivia() =>
-      (super.noSuchMethod(Invocation.method(#getConcreteRandomTrivia, []),
+  _i4.Future<_i2.NumberTriviaModel> getRandomNumberTrivia() =>
+      (super.noSuchMethod(Invocation.method(#getRandomNumberTrivia, []),
               returnValue: Future<_i2.NumberTriviaModel>.value(
                   _FakeNumberTriviaModel_0()))
           as _i4.Future<_i2.NumberTriviaModel>);
